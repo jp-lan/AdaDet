@@ -1,0 +1,28 @@
+_BASE_: [
+  '../base.yaml',
+]
+
+adadet_train:
+  type: 'DamoYoloTrainManager'
+  model_id: 'damo/cv_tinynas_human-detection_damoyolo'
+  data:
+    dataset_mode: 'dataset_offline'
+    train_cfg:
+      img_dir: '/root/.cache/modelscope/hub/datasets/modelscope/person_detection_for_train/master/data_files/extracted/381740db64b4cab902ee30ad1f8952b3a48492342a683a8dc278c375c2931e0f/images'
+      anno_path: '/root/.cache/modelscope/hub/datasets/modelscope/person_detection_for_train/master/data_files/extracted/381740db64b4cab902ee30ad1f8952b3a48492342a683a8dc278c375c2931e0f/train.json'
+    eval_cfg:
+      img_dir: '/root/.cache/modelscope/hub/datasets/modelscope/person_detection_for_train/master/data_files/extracted/f5a85792fb5fed4210a370a8a551358cc930ef63ceebbd037f457fa54ac43064/images'
+      anno_path: '/root/.cache/modelscope/hub/datasets/modelscope/person_detection_for_train/master/data_files/extracted/f5a85792fb5fed4210a370a8a551358cc930ef63ceebbd037f457fa54ac43064/val.json'
+  modelscope_params:
+    train:
+      gpu_ids: [0, ]
+      batch_size: 2
+      max_epochs: 3
+      base_lr_per_img: 0.001
+      load_pretrain: True
+      work_dir: './workdirs'
+    model:
+      head:
+        num_classes: 1
+    miscs:
+      exp_name: 'damoyolo_s'

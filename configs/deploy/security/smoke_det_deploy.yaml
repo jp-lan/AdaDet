@@ -1,0 +1,23 @@
+_BASE_: [
+  '../base.yaml',
+]
+
+input_path:
+  ./test/data/images/smoke_a388.jpg
+  # ./test/data/videos/smoke_a388.mp4
+
+output_path:
+  ./deploy_res
+
+vis_flag: False
+
+adadet_deploy:
+  type: SmokeDetection
+  model_id:
+      human_det: 'damo/cv_tinynas_human-detection_damoyolo'
+      cigarette_det: 'damo/cv_tinynas_object-detection_damoyolo_cigarette'
+  rules:
+    is_video: False # the format of input
+    frame_rate: 1 # the key frame interval, only be used when is_video==True
+    type: 'ioa' # 'ioa' / 'dist' / 'iou'
+    threshold: 0.5

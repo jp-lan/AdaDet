@@ -1,0 +1,33 @@
+_BASE_: [
+  '../base.yaml',
+]
+
+adadet_train:
+  type: 'DinoTrainManager'
+  model_id: 'damo/cv_swinl_image-object-detection_dino'
+  data:
+    dataset_mode: 'dataset_online'
+    train_cfg:
+      dataset_name: 'small_coco_for_test'
+      namespace: 'EasyCV'
+      split: 'train'
+    eval_cfg:
+      dataset_name: 'small_coco_for_test'
+      namespace: 'EasyCV'
+      split: 'validation'
+    # dataset_mode: 'dataset_offline'
+    # train_cfg:
+    #   img_dir: '/root/.cache/modelscope/hub/datasets/EasyCV/small_coco_for_test/master/data_files/extracted/381740db64b4cab902ee30ad1f8952b3a48492342a683a8dc278c375c2931e0f/images'
+    #   anno_path: '/root/.cache/modelscope/hub/datasets/EasyCV/small_coco_for_test/master/data_files/extracted/381740db64b4cab902ee30ad1f8952b3a48492342a683a8dc278c375c2931e0f/train.json'
+    # eval_cfg:
+    #   img_dir: '/root/.cache/modelscope/hub/datasets/EasyCV/small_coco_for_test/master/data_files/extracted/f5a85792fb5fed4210a370a8a551358cc930ef63ceebbd037f457fa54ac43064/images'
+    #   anno_path: '/root/.cache/modelscope/hub/datasets/EasyCV/small_coco_for_test/master/data_files/extracted/f5a85792fb5fed4210a370a8a551358cc930ef63ceebbd037f457fa54ac43064/val.json'
+  modelscope_params:
+    train:
+      work_dir: './output'
+      max_epochs: 18
+      dataloader:
+        batch_size_per_gpu: 1
+    model:
+      head:
+        num_classes: 80

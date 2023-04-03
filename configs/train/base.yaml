@@ -1,0 +1,6 @@
+
+adadet_train:
+  type: ~
+  model_id: ~
+  data:
+    dataset_mode: ~

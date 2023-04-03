@@ -1,0 +1,12 @@
+test/data/*/*.jpg filter=lfs diff=lfs merge=lfs -text
+test/data/*/*.png filter=lfs diff=lfs merge=lfs -text
+test/data/*/*.mp4 filter=lfs diff=lfs merge=lfs -text
+test/data/*/*.avi filter=lfs diff=lfs merge=lfs -text
+test/data/*/*.JPEG filter=lfs diff=lfs merge=lfs -text
+test/data/*/*.JPG filter=lfs diff=lfs merge=lfs -text
+test/data/*/*.jpeg filter=lfs diff=lfs merge=lfs -text
+test/data/*/*.MP4 filter=lfs diff=lfs merge=lfs -text
+test/data/*/*.AVI filter=lfs diff=lfs merge=lfs -text
+test/data/*/*.PNG filter=lfs diff=lfs merge=lfs -text
+adadet/resource/*.jpg filter=lfs diff=lfs merge=lfs -text
+adadet/resource/*.png filter=lfs diff=lfs merge=lfs -text

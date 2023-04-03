@@ -1,0 +1,23 @@
+_BASE_: [
+  '../base.yaml',
+]
+
+input_path:
+  'test/data/images/face_retouch_1.png'
+
+output_path:
+  ./deploy_res
+
+vis_flag:
+  True
+
+adadet_deploy:
+  type: FaceRetouch
+  model_id: 'damo/cv_mobilenet_face-2d-keypoints_alignment'
+  rules:
+    is_video: False
+    filter_style: 'none'      # 滤镜风格,范围['none', 'sun', 'marshmallow', 'magic', 'film', 'japan']
+    smooth: 60                # 磨皮力度，范围[0, 100]
+    white: 60                 # 美白力度，范围[0, 100]
+    enlarge_eye: 36           # 大眼力度，范围[0, 100]
+    slim_face: 50             # 瘦脸力度，范围[0, 100]

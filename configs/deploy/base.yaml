@@ -1,0 +1,9 @@
+input_path:
+  ~
+output_path:
+  ~
+
+vis_flag: False
+
+adadet_deploy:
+  type: ~

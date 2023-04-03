@@ -1,0 +1,18 @@
+
+_BASE_: [
+  './base.yaml',
+]
+
+input_path:
+  ./test/data/images/test_walker1.jpeg
+
+output_path:
+  ./infer_out
+
+vis_flag: True
+vis_func: vis_det_img
+
+adadet_infer:
+  type: 'ModelScopePipeline'
+  task: 'domain-specific-object-detection'
+  model_id: 'damo/cv_tinynas_human-detection_damoyolo'

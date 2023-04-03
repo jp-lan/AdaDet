@@ -1,0 +1,30 @@
+_BASE_: [
+  '../base.yaml',
+]
+
+adadet_train:
+  type: 'DamoYoloTrainManager'
+  model_id: 'damo/cv_tinynas_human-detection_damoyolo'
+  data:
+    dataset_mode: 'dataset_online'
+    train_cfg:
+      dataset_name: 'person_detection_for_train'
+      namespace: 'modelscope'
+      split: 'train'
+    eval_cfg:
+      dataset_name: 'person_detection_for_train'
+      namespace: 'modelscope'
+      split: 'validation'
+  modelscope_params:
+    train:
+      gpu_ids: [0, ]
+      batch_size: 2
+      max_epochs: 3
+      base_lr_per_img: 0.001
+      load_pretrain: True
+      work_dir: './workdirs'
+    model:
+      head:
+        num_classes: 1
+    miscs:
+      exp_name: 'damoyolo_s'
