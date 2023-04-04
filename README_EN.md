@@ -2,6 +2,11 @@
 
 # **AdaDet: A Development Toolkit for Object Detection based on [ModelScope](https://modelscope.cn/home)**
 
+[![license](https://img.shields.io/github/license/modelscope/adadet.svg)](https://github.com/modelscope/adadet/blob/master/LICENSE)
+[![issues](https://img.shields.io/github/issues/modelscope/adadet.svg)](https://github.com/modelscope/AdaDet/issues)
+[![stars](https://img.shields.io/github/stars/modelscope/adadet.svg)](https://github.com/modelscope/AdaDet/stargazers)
+[![contribution](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](./CONTRIBUTING.md)
+
 ## 🌈Introduction
 AdaDet is an object detection development toolkit based on ModelScope. Users can experience cutting-edge models and solutions with simple commands.
 
