@@ -7,7 +7,7 @@ Supported models:
 |:--:|:--:|:--:|
 |[video-object-tracking-FairMOT](#video-object-tracking-FairMOT)|video-multi-object-tracking|damo/cv_yolov5_video-multi-object-tracking_fairmot|
 
-## 📌 video-object-tracking-FairMOT ##
+## 📌video-object-tracking-FairMOT ##
 ### Introduction
 Multi-object tracking(MOT) algorithm usually consists of an object detection module and an object re-identification module. This model is based on FairMOT, which simultaneously performs object detection and re-identification in a single module and runs in real time.
 

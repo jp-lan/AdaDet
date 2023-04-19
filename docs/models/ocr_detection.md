@@ -8,7 +8,7 @@
 |[文字检测-行检测-中英-SegLink++](#文字检测-行检测-中英-SegLink++)|ocr-detection|damo/cv_resnet18_ocr-detection-line-level_damo|
 |[文字检测-单词检测-英文-SegLink++](#文字检测-单词检测-英文-SegLink++)|ocr-detection|damo/cv_resnet18_ocr-detection-word-level_damo|
 
-## 📌文字检测-行检测-中英-SegLink++
+## 📌文字检测-行检测-中英-SegLink++ ##
 ### 基本信息
 文字检测，即给定一张图片，检测出图中所含文字的外接框的端点的坐标值。文字行检测即检测给定图片中文字行的外接框。
 本模型是以自底向上的方式，先检测文本块和文字行之间的吸引排斥关系，然后对文本块聚类成行，最终输出文字行的外接框的坐标值。
@@ -49,7 +49,7 @@ adadet_infer:
 }
 ```
 
-## 📌文字检测-单词检测-英文-SegLink++
+## 📌文字检测-单词检测-英文-SegLink++ ##
 ### 基本信息
 文字检测，即给定一张图片，检测出图中所含文字的外接框的端点的坐标值。英文单词检测即检测给定图片英文单词的外接框。
 本模型是基于MLT17/MLT19/IC15/TextOCR/HierText开源数据训练得到。

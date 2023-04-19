@@ -77,7 +77,7 @@ sh tools/run_infer.sh
 目前支持的算法模型列表如下：
 |算法类型介绍及相关论文|||
 |:----:|:----:|:----:|
-|[通用目标检测](./docs/models/object_detection.md)|[垂类目标检测](./docs/models/domain_specific_detection.md)|[长尾/小目标检测](./docs/models/small_object_detection.md)|
+|[通用目标检测](./docs/models/object_detection.md)|[垂类目标检测](./docs/models/domain_specific_object_detection.md)|[长尾/小目标检测](./docs/models/small_object_detection.md)|
 |[人脸检测](./docs/models/face_detection.md)|[OCR检测](./docs/models/ocr_detection.md)|[视频目标检测](./docs/models/video_object_detection.md)|
 |[2D关键点检测](./docs/models/2d_keypoints.md)|[3D关键点检测](./docs/models/3d_keypoints.md)|[视频目标跟踪](./docs/models/video_object_tracking.md)|
 

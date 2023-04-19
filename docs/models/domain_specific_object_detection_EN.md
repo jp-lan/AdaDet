@@ -17,7 +17,7 @@ The current list of supported domain-specific object detection models is as foll
 |[smokefire-detection-DAMOYOLO](#smokefire-detection-DAMOYOLO)|domain-specific-object-detection|damo/cv_tinynas_object-detection_damoyolo_smokefire|
 
 
-## 📌 human-detection-DAMOYOLO ##
+## 📌human-detection-DAMOYOLO ##
 ### Introduction
 This model is a real-time human detection model based on the [DAMO-YOLO-S](https://github.com/tinyvision/DAMO-YOLO) framework, which is a target detection framework designed for industrial applications. The model balances both speed and accuracy, and has achieved better detection results than other YOLO-based methods while still maintaining high inference speed. The model was trained on the [COCO2017 human dataset](https://cocodataset.org/#detection-2017), the [Object365 human dataset](http://www.objects365.org/overview.html), and internal accumulated data, and is suitable for human detection in natural scenes.
 
@@ -69,7 +69,7 @@ The main reference paper for this model is:
 ```
 
 
-## 📌 head-detection-DAMOYOLO ##
+## 📌head-detection-DAMOYOLO ##
 ### Introduction
 This model is a real-time head detection model based on the [DAMOYOLO-S](https://github.com/tinyvision/DAMO-YOLO) model. DAMO-YOLO is an industrial-grade object detection framework that balances model speed and accuracy. The model trained by DAMO-YOLO surpasses various YOLO methods currently and still maintains high inference speed. This model is trained on the [Safety Helmet Wearing Dataset (SHWD)](https://github.com/njvisionpower/Safety-Helmet-Wearing-Dataset)/internal accumulated data and is suitable for head detection in natural scenes.
 
@@ -119,7 +119,7 @@ The main reference paper for this model is:
 ```
 
 
-## 📌 hand-detection-YOLOX-PAI ##
+## 📌hand-detection-YOLOX-PAI ##
 ### Introduction
 This model is a real-time hand detection model based on the [YOLOX-PAI](https://github.com/alibaba/EasyCV/blob/master/docs/source/tutorials/yolox_EN.md) model. YOLOX-PAI is an industrial-level object detection framework that is an improved and upgraded version of [YOLOX](https://github.com/Megvii-BaseDetection/YOLOX). This model is trained on the COCO-HAND_Big/TV_HAND dataset and is suitable for hand detection in natural scenes.
 
@@ -164,7 +164,7 @@ The main reference paper for this model is as follows:
 ```
 
 
-## 📌 facemask-detection-DAMOYOLO ##
+## 📌facemask-detection-DAMOYOLO ##
 ### Introduction
 This model is a real-time face mask detection model based on the [DAMO-YOLO-S](https://github.com/tinyvision/DAMO-YOLO) framework, which is designed for industrial application and balances model speed and accuracy. The trained model surpasses other YOLO-based methods in terms of performance while maintaining high inference speed. The model was trained on the [FaceMaskDetection dataset](https://github.com/AIZOOTech/FaceMaskDetection) as well as internal data and is suitable for face mask detection in natural scenes.
 
@@ -217,7 +217,7 @@ The main reference papers for this model are as follows:
 ```
 
 
-## 📌 safety-helmet-detection-DAMOYOLO ##
+## 📌safety-helmet-detection-DAMOYOLO ##
 ### Introduction
 This model is a real-time safety helmet detection model based on the [DAMOYOLO-S](https://github.com/tinyvision/DAMO-YOLO) framework, which is designed for industrial application and balances model speed and accuracy. The trained model surpasses other YOLO-based methods in terms of performance while maintaining high inference speed. The model was trained on the [Safety Helmet Wearing Dataset (SHWD)](https://github.com/njvisionpower/Safety-Helmet-Wearing-Dataset) as well as internal data and is suitable for face mask detection in natural scenes.
 
@@ -269,7 +269,7 @@ The main reference papers for this model are as follows:
 ```
 
 
-## 📌 cigarette-detection-DAMOYOLO ##
+## 📌cigarette-detection-DAMOYOLO ##
 ### Introduction
 This model is a real-time cigarette detection model based on the [DAMOYOLO-S](https://github.com/tinyvision/DAMO-YOLO) framework, which is designed for industrial application and balances model speed and accuracy. The trained model surpasses other YOLO-based methods in terms of performance while maintaining high inference speed. The model was trained on internal data and is suitable for face mask detection in natural scenes.
 
@@ -319,7 +319,7 @@ The main reference papers for this model are as follows:
 }
 ```
 
-## 📌 phone-detection-DAMOYOLO ##
+## 📌phone-detection-DAMOYOLO ##
 ### Introduction
 This model is a real-time phone detection model based on the [DAMOYOLO-S](https://github.com/tinyvision/DAMO-YOLO) framework, which is designed for industrial application and balances model speed and accuracy. The trained model surpasses other YOLO-based methods in terms of performance while maintaining high inference speed. The model was trained on internal data and is suitable for face mask detection in natural scenes.
 
@@ -369,7 +369,7 @@ The main reference papers for this model are as follows:
 ```
 
 
-## 📌 traffic-sign-detection-DAMOYOLO ##
+## 📌traffic-sign-detection-DAMOYOLO ##
 ### Introduction
 This model is a real-time traffic sign detection model based on the [DAMOYOLO-S](https://github.com/tinyvision/DAMO-YOLO) framework, which is designed for industrial application and balances model speed and accuracy. The trained model surpasses other YOLO-based methods in terms of performance while maintaining high inference speed. The model was trained on the [BDD100K dataset](https://www.bdd100k.com/) and is suitable for face mask detection in natural scenes.
 
@@ -420,7 +420,7 @@ The main reference papers for this model are as follows:
 ```
 
 
-## 📌 vehicle-detection-YOLOX-PAI ##
+## 📌vehicle-detection-YOLOX-PAI ##
 ### Introduction
 This model is a real-time vehicle detection model based on the [YOLOX-PAI](https://github.com/alibaba/EasyCV/blob/master/docs/source/tutorials/yolox_EN.md) model. YOLOX-PAI is an industrial-grade object detection framework, which is an improved and upgraded version of [YOLOX](https://github.com/Megvii-BaseDetection/YOLOX).
 This model is trained on Waymo/Nuimage100K/BDD100K and is suitable for vehicle detection in autonomous driving scenarios.
@@ -459,7 +459,7 @@ The main reference papers for this model are as follows:
 }
 ```
 
-## 📌 smokefire-detection-DAMOYOLO ##
+## 📌smokefire-detection-DAMOYOLO ##
 ### Introduction
 This model is a real-time smokefire detection model based on the [DAMOYOLO-S](https://github.com/tinyvision/DAMO-YOLO) framework, which is designed for industrial application and balances model speed and accuracy. The trained model surpasses other YOLO-based methods in terms of performance while maintaining high inference speed.
 The model is suitable for smokefire detection.

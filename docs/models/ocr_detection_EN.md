@@ -8,7 +8,7 @@ The Current list of supported OCR detection models is as follows:
 |[text-detection-line-detection-CN/EN-SegLink++](#text-detection-line-detection-CN/EN-SegLink++)|ocr-detection|damo/cv_resnet18_ocr-detection-line-level_damo|
 |[text-detection-word-detection-EN-SegLink++](#text-detection-word-detection-EN-SegLink++)|ocr-detection|damo/cv_resnet18_ocr-detection-word-level_damo|
 
-## 📌 text-detection-line-detection-CN/EN-SegLink++
+## 📌text-detection-line-detection-CN/EN-SegLink++ ##
 ### Introduction
 Text detection refers to detecting the coordinates of the bounding box of the text contained in an image. Text line detection refers to detecting the bounding box of the text line in a given image. This model detects the attractive and repulsive relationships between text blocks and text lines from the bottom up, then clusters text blocks into lines, and finally outputs the coordinates of the bounding box of the text lines. This model was trained on open source data from MTWI/RECTS/SROIE/LSVT.
 
@@ -49,7 +49,7 @@ The main reference paper for this model is as follows:
 }
 ```
 
-## 📌 text-detection-word-detection-EN-SegLink++
+## 📌text-detection-word-detection-EN-SegLink++ ##
 ### Introduction
 Text detection refers to detecting the coordinates of the bounding box of the text contained in an image. English word detection refers to detecting the bounding box of the English words in a given image. This model was trained on open source data from MLT17/MLT19/IC15/TextOCR/HierText.
 

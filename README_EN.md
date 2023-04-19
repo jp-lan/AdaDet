@@ -78,7 +78,7 @@ More details and a supported model list can be found in [infer tutorial](./docs/
 Supported methods and papers
 ||||
 |:----:|:----:|:----:|
-|[General Object Detection](./docs/models/object_detection_EN.md)|[Domain Specific Object Detection](./docs/models/domain_specific_detection_EN.md)|[Few-shot Object Detection](./docs/models/small_object_detection_EN.md)|
+|[General Object Detection](./docs/models/object_detection_EN.md)|[Domain Specific Object Detection](./docs/models/domain_specific_object_detection_EN.md)|[Few-shot Object Detection](./docs/models/small_object_detection_EN.md)|
 |[Face Detection](./docs/models/face_detection_EN.md)|[OCR](./docs/models/ocr_detection_EN.md)|[Video Object detection](./docs/models/video_object_detection_EN.md)|
 |[2D Keypoints Detection](./docs/models/2d_keypoints_EN.md)|[3D Keypoints Detection](./docs/models/3d_keypoints_EN.md)|[Video Object Tracking](./docs/models/video_object_tracking_EN.md)|
 
